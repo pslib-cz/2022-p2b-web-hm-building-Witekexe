@@ -1,5 +1,3 @@
-
-
 @font-face {
     font-family: OpenSans;
     src: url(../fonts/OpenSans.ttf);
@@ -56,6 +54,13 @@ a {
     font-family: "Inter"
 }
 
+
+.dots::before {
+    content: url(../HM\ building/dot.png) ;
+    vertical-align: middle;
+    padding-right: 1em;
+
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -89,15 +94,17 @@ a {
     margin-left: 5rem;
     font-family: "Inter";
 }
-
+.nav-item:hover{background-color: #eb6c27;}
 .nav-link {
     color: black;
     font-family: "Inter";
 }
 
-.nav-logo img {
-    width: 100%;
-    height: 100%;
+.nav-logo {
+    background-image: url(../HM\ building/logo.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
     object-fit: contain;
     min-width: 127px;
     min-height: 44px;
@@ -114,6 +121,10 @@ a {
     background-size: cover;
     font-family: "Inter"; 
 }
+
+.footer { width: 100%;
+          height: 383px;
+        background-color: #eb6c27;}
 
 .duvera {
     height: 45vh;
@@ -138,6 +149,9 @@ a {
     font-family: "Inter";
 }
 
+.centered {
+    text-align: center;
+}
 .comp_name_main {
     font-size: 30px;
     font-family: "Inter";
@@ -168,7 +182,7 @@ a {
 
 .container {
     margin: 3em;
-    font-family: "Inter"
+
 }
 
 .novostavby_img {
