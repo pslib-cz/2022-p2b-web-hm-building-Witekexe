@@ -73,6 +73,15 @@ p {
     padding-right: 1em;
 
 }
+
+.dots_mar::before {
+    content: url(../HMbuilding/dot.png) ;
+    vertical-align: middle;
+    padding-right: 1em;
+    margin-left: 8em;
+}
+
+
 .navbar {
 
     background-color: white;
@@ -328,7 +337,7 @@ p {
 .input_big{
     color: #eb6c27;
     outline: #eb6c27;
-    height:200px ;
+    height: 150px;
 }
 p.contact{
     color: #eb6c27;
