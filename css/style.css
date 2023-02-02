@@ -28,12 +28,22 @@
     font-weight: bolder;
     font-family: "Inter"
 }
+.img_zbrojnice{content: url(../HMbuilding/reference/reference-hasicska-zbrojnice-600w.jpg);
+width: 90%;
+height: auto;
+align-self: center;}
+.img_pradelna{content: url(../HMbuilding/reference/reference-pradelna-600w.jpg);
+    width: 90%;
+    height: auto;
+    align-self: center;}
+.img_plochy{content: url(../HMbuilding/reference/reference-plocha-600w.jpg);
+    width: 90%;
+    height: auto;
+    align-self: center;}
 
-.--sluzby {
-    font-size: 14px;
-    font-family: "Inter"
+.Inter{
+    font-family: "Inter";
 }
-
 h1 {
     font-size: 22px;
     font-family: "Inter"
@@ -43,30 +53,36 @@ h2 {
     font-size: 20px;
     font-family: "Inter"
 }
+h3{font-family: OpenSans;
+    color: black;
+    font-size: 14px;}
 
-li {
-    list-style: none;
-    font-family: "Inter"
-}
 
 a {
     text-decoration: none;
     font-family: "Inter"
 }
 
+p {
+    font-family: "OpenSans"
+}
 
 .dots::before {
-    content: url(../HM\ building/dot.png) ;
+    content: url(../HMbuilding/dot.png) ;
     vertical-align: middle;
     padding-right: 1em;
 
 }
 .navbar {
+
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    margin: 1rem ;
+    margin-top: 1rem;
     font-family: "Inter";
+    padding: 10px ;
 }
 
 .hamburger {
@@ -74,14 +90,7 @@ a {
     font-family: "Inter";
 }
 
-.bar {
-    display: block;
-    width: 46px;
-    height: 8px;
-    margin: 5px auto;
-    font-family: "Inter";
-    background: linear-gradient(to right, #eb6c27, #f28145, #f79661, #fcaa7d, #ffbe9a);
-}
+
 
 .nav-menu {
     display: flex;
@@ -90,18 +99,15 @@ a {
     font-family: "Inter";
 }
 
-.nav-item {
-    margin-left: 5rem;
-    font-family: "Inter";
-}
-.nav-item:hover{background-color: #eb6c27;}
+
 .nav-link {
-    color: black;
+    color: white;
+    text-decoration: underline;
     font-family: "Inter";
 }
 
 .nav-logo {
-    background-image: url(../HM\ building/logo.png);
+    background-image: url(../HMbuilding/logo.png);
     background-repeat: no-repeat;
     width: 250px;
     height: 100px;
@@ -113,23 +119,28 @@ a {
 .div_page_header {
     height: 80vh;
     width: 100%;
-    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.6)), url(../HM\ building/pageheader-1920w.jpg);
+    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.6)), url(../HMbuilding/pageheader-1920w.jpg);
     background-repeat: no-repeat;
     display: block;
     padding: 0%;
+    padding-top: 20px;
     background-position: center center;
     background-size: cover;
     font-family: "Inter"; 
+    justify-content: center;
 }
 
-.footer { width: 100%;
-          height: 383px;
-        background-color: #eb6c27;}
+.footer { 
+    width: 100%;
+    height: 383px;
+    background-color: #eb6c27;
+
+}
 
 .duvera {
     height: 45vh;
     width: 100%;
-    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.9)), url(../HM\ building/background-CTAblock-4460w.jpg);
+    background-image: radial-gradient(transparent, rgb(0, 0, 0, 0.9)), url(../HMbuilding/background-CTAblock-4460w.jpg);
     background-repeat: no-repeat;
     display: block;
     padding: 0%;
@@ -137,20 +148,37 @@ a {
     background-size: cover;
     font-family: "Inter"; 
 }
+.nav-items{
+    padding: 20px;
+    background-color: #eb6c27;
+    margin: 1rem ;
+    width: 80%;
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    font-family: inter;
+    text-decoration: underline;
+    text-decoration: white;
 
+
+    
+}
 .mar {
     margin: 0.3rem;
 }
 
 .comp_name {
-    position: relative;
     text-align: center;
-    bottom: -65%;
     font-family: "Inter";
 }
 
 .centered {
+    padding-top: 1rem;
+    height: 100%;
     text-align: center;
+    align-content: space-between;
+
 }
 .comp_name_main {
     font-size: 30px;
@@ -186,7 +214,7 @@ a {
 }
 
 .novostavby_img {
-    background-image: url(../HM\ building/sluzba-novostavby-1200w.jpg);
+    background-image: url(../HMbuilding/sluzba-novostavby-1200w.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-right-radius: 15%;
@@ -198,7 +226,7 @@ a {
 }
 
 .prum-stavby_img {
-    background-image: url(../HM\ building/sluzba-prumyslove-stavby-1920w.jpg);
+    background-image: url(../HMbuilding/sluzba-prumyslove-stavby-1920w.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 15%;
@@ -210,7 +238,7 @@ a {
 }
 
 .rekonstrukce_img {
-    background-image: url(../HM\ building/sluzba-rekonstrukce-1920w.jpg);
+    background-image: url(../HMbuilding/sluzba-rekonstrukce-1920w.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-right-radius: 15%;
@@ -222,7 +250,7 @@ a {
 }
 
 .komunikace_img {
-    background-image: url(../HM\ building/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg);
+    background-image: url(../HMbuilding/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 15%;
@@ -272,48 +300,80 @@ a {
     padding-top: 1.50em;
 }
 
+.button-white {
+    box-sizing: border-box;
+    background-color: white;
+    color: #eb6c27;
+    font-family: "Inter";
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+}
+.button-orange {
+    box-sizing: border-box;
+    background-color: #eb6c27;
+    color: white;
+    font-family: "Inter";
+    text-align: center;
+    padding: 2em 4em 2em 4em;
+
+}
 
 
+
+.input{
+    color: #eb6c27;
+    outline: #eb6c27;
+}
+.input_big{
+    color: #eb6c27;
+    outline: #eb6c27;
+    height:200px ;
+}
+p.contact{
+    color: #eb6c27;
+}
+p.contact::before{
+    content: url(../HMbuilding/dot.png) ;
+    vertical-align: middle;
+    
+}
 @media only screen and (max-width: 600px) {
-    .nav-menu {
-        box-sizing: border-box;
-        position: fixed;
-        left: -100%;
-        top: 9rem;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        border-left: 50px solid white;
-        border-right: 50px solid white;
-        padding: 10px;
-        background-color: #eb6c27;
-        font-family: "Inter"
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        position: relative;
-        text-align: left;
-        margin: 2.5rem 0;
-        left: 10%;
-        font-family: "Inter";
-    }
-
-    .hamburger {
+    
+    .bars{flex-direction: column;}
+    .bar {
         display: block;
-        cursor: pointer;
+        width: 46px;
+        height: 8px;
+        margin: 5px auto;
         font-family: "Inter";
+        background: linear-gradient(to right, #eb6c27, #f28145, #f79661, #fcaa7d, #ffbe9a);
+    }
+    .map{
+        width: 100%;
+        height: auto;
+    }
+    .photos{
+        display: grid;
+        margin: 10%;
+        gap: 10px;
+        grid-template-columns: 500px;
+        grid-template-rows: auto;
+    
+        
+        
+
+    }
+    .ref_img{
+        width: 500px;
+        height: auto;
     }
 
-    .show {display: none;}
 
-    .nav-link {
-        color: white;
-    }
 
+
+
+}
+
+@media only screen and (min-width: 600px) {
 }
