@@ -4,13 +4,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: Inter;
-    src: url(../fonts/Inter.ttf);
-    font-style: normal;
-
-}
-
 
 .--white {
     color: white;
@@ -20,7 +13,7 @@
     color: black;
 }
 
-.--orange {
+.--main {
     color: #eb6c27;
 }
 
@@ -41,26 +34,24 @@ align-self: center;}
     height: auto;
     align-self: center;}
 
-.Inter{
-    font-family: "Inter";
-}
+
 h1 {
-    font-size: 22px;
+    font-size: 1em;
     font-family: "Inter"
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1em;
     font-family: "Inter"
 }
 h3{font-family: OpenSans;
     color: black;
-    font-size: 14px;}
+    font-size: 1em;}
 
 
 a {
     text-decoration: none;
-    font-family: "Inter"
+    font-family: "OpenSans"
 }
 
 p {
@@ -318,7 +309,7 @@ p {
     padding: 2em 4em 2em 4em;
 
 }
-.button-orange {
+.button-main {
     box-sizing: border-box;
     background-color: #eb6c27;
     color: white;
