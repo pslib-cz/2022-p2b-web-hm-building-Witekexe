@@ -345,9 +345,14 @@ p.contact::before{
         display: block;
         width: 46px;
         height: 8px;
-        margin: 5px auto;
-        font-family: "Inter";
         background: linear-gradient(to right, #eb6c27, #f28145, #f79661, #fcaa7d, #ffbe9a);
+    }
+    .bar--white {
+        display: block;
+        width: 46px;
+        height: 8px;
+        background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    
     }
     .map{
         width: 100%;
